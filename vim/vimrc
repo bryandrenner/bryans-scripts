@@ -1,0 +1,40 @@
+" displaying text
+
+set nowrap
+set number
+
+" syntax, highlighting and spelling
+
+set hlsearch
+set colorcolumn=81,101
+
+" editing text
+
+set backspace=indent,eol,start
+set showmatch
+
+" tabs and indenting
+
+set tabstop=4
+set shiftwidth=4
+set smarttab
+set softtabstop=4
+set shiftround
+set expandtab
+set autoindent
+
+" reading and writing files
+
+set nobackup
+
+" the swap file
+
+set noswapfile
+
+" multi-byte characters
+
+set encoding=utf-8
+
+syntax enable
+"colorscheme solarized
+
