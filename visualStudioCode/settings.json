@@ -1,4 +1,5 @@
 {
+    "editor.minimap.enabled": false,
     "editor.rulers": [
         80,
         120
@@ -8,7 +9,6 @@
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
     "[plaintext]": {
-        "editor.minimap.enabled": false,
         "editor.quickSuggestions": false
     }
 }
