@@ -4,6 +4,7 @@
         80,
         120
     ],
+    "git.autofetch": true,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
