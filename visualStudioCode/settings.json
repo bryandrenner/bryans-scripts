@@ -1,18 +1,16 @@
 {
-    "search.location": "panel",
     "editor.rulers": [
         80,
         120
     ],
-    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "none",
     "[markdown]": {
         "editor.quickSuggestions": false
     },
     "[plaintext]": {
-        "editor.wordBasedSuggestions": false,
+        "editor.minimap.enabled": false,
         "editor.quickSuggestions": false
-    },
-    "window.menuBarVisibility": "toggle",
-    "workbench.startupEditor": "newUntitledFile"
+    }
 }
