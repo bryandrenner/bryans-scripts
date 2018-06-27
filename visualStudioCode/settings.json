@@ -6,9 +6,7 @@
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
-    "[markdown]": {
-        "editor.quickSuggestions": false
-    },
+    "workbench.statusBar.feedback.visible": false,
     "[plaintext]": {
         "editor.minimap.enabled": false,
         "editor.quickSuggestions": false
