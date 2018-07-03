@@ -5,6 +5,7 @@
         120
     ],
     "explorer.openEditors.visible": 0,
+    "files.hotExit":"off",
     "git.autofetch": true,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
