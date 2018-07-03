@@ -4,6 +4,7 @@
         80,
         120
     ],
+    "explorer.openEditors.visible": 0,
     "git.autofetch": true,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
