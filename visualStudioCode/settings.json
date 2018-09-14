@@ -11,6 +11,9 @@
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
     "[plaintext]": {
         "editor.quickSuggestions": false
     }
