@@ -1,5 +1,11 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+k t", "command": "workbench.action.tasks.test" },
-    { "key": "ctrl+k `", "command": "workbench.action.terminal.kill" }
+    {
+	"key": "ctrl+k t",
+	"command": "workbench.action.tasks.test"
+    },
+    {
+        "key": "ctrl+shift+alt+.",
+        "command": "eslint.executeAutofix"
+    }
 ]
