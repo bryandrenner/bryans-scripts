@@ -16,5 +16,6 @@
     },
     "[plaintext]": {
         "editor.quickSuggestions": false
-    }
+    },
+    "workbench.tree.indent": 20
 }
