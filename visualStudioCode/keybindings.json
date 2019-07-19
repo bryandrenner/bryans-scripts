@@ -15,5 +15,9 @@
     {
         "key": "ctrl+shift+alt+a",
         "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+shift+alt+r",
+        "command": "workbench.files.action.showActiveFileInExplorer"
     }
 ]
