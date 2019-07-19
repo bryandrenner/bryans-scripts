@@ -1,11 +1,19 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-	"key": "ctrl+k t",
-	"command": "workbench.action.tasks.test"
+        "key": "ctrl+k t",
+        "command": "workbench.action.tasks.test"
     },
     {
         "key": "ctrl+shift+alt+.",
         "command": "eslint.executeAutofix"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+shift+alt+a",
+        "command": "explorer.newFolder"
     }
 ]
