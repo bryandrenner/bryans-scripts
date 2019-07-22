@@ -17,6 +17,10 @@
         "command": "explorer.newFolder"
     },
     {
+        "key": "ctrl+shift+alt+e",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
         "key": "ctrl+shift+alt+r",
         "command": "workbench.files.action.showActiveFileInExplorer"
     }

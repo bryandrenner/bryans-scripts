@@ -68,6 +68,8 @@
           <Shortcut Command="Edit.NavigateTo" Scope="Global">Ctrl+P</Shortcut>
           <Shortcut Command="Window.CloseToolWindow" Scope="Global">Ctrl+B</Shortcut>
           <Shortcut Command="Project.NewFolder" Scope="Global">Ctrl+Shift+Alt+A</Shortcut>
+          <Shortcut Command="SolutionExplorer.CollapseAll" Scope="Global">Ctrl+Shift+Alt+E</Shortcut>
+          <Shortcut Command="SolutionExplorer.SyncWithActiveDocument" Scope="Global">Ctrl+Shift+Alt+R</Shortcut>
         </UserShortcuts>
       </KeyboardShortcuts>
     </Category>
