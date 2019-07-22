@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Assert Multiple</Title>
+            <Author>Bryan Drenner</Author>
+            <Shortcut>am</Shortcut>
+            <Description>Create an NUnit test</Description>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[Assert.Multiple(() => {
+$end$
+});]]>
+            </Code>
+            <Imports>
+                <Import>
+                    <Namespace>NUnit.Framework</Namespace>
+                </Import>
+            </Imports>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Substitute For</Title>
+            <Author>Bryan Drenner</Author>
+            <Shortcut>sf</Shortcut>
+            <Description>Create an NSubstitute substitute</Description>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[Substitute.For<$Type$>()]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>Type</ID>
+                    <ToolTip>The type of the substitute</ToolTip>
+                    <Default>object</Default>
+                </Literal>
+            </Declarations>
+            <Imports>
+                <Import>
+                    <Namespace>NSubstitute</Namespace>
+                </Import>
+            </Imports>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
