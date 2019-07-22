@@ -2,17 +2,22 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Assert Multiple</Title>
+            <Title>Assert That ... Is</Title>
             <Author>Bryan Drenner</Author>
-            <Shortcut>am</Shortcut>
-            <Description>Create an NUnit test</Description>
+            <Shortcut>ati</Shortcut>
+            <Description>Assert that... is...</Description>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[Assert.Multiple(() => {
-    Assert.That($end$);
-});]]>
+                <![CDATA[Assert.That($Actual$, Is$end$);]]>
             </Code>
+            <Declarations>
+                <Literal>
+                    <ID>Actual</ID>
+                    <ToolTip>The actual value being asserted over</ToolTip>
+                    <Default>actual</Default>
+                </Literal>
+            </Declarations>
             <Imports>
                 <Import>
                     <Namespace>NUnit.Framework</Namespace>
