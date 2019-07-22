@@ -24,7 +24,7 @@
           <Scope Name="CSS Editor" ID="{A5401142-F49D-43DB-90B1-F57BA349E55C}"/>
           <Scope Name="DataSet Editor" ID="{B334A759-F450-40A5-BE2A-65937BCD5415}"/>
           <Scope Name="XAML Designer" ID="{E9B8485C-1217-4277-9ED6-C825A5AC1968}"/>
-          <Scope Name="F# Interactive" ID="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}"/>
+          <Scope Name="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}" ID="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}"/>
           <Scope Name="View Designer" ID="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}"/>
           <Scope Name="XAML Editor" ID="{A4F9FF65-A78C-4650-866D-5069CC4127CF}"/>
           <Scope Name="Microsoft SQL Server Data Tools, Table Designer" ID="{2366CF66-2394-4701-AFCA-37ED7FD41648}"/>
@@ -70,6 +70,7 @@
           <Shortcut Command="Project.NewFolder" Scope="Global">Ctrl+Shift+Alt+A</Shortcut>
           <Shortcut Command="SolutionExplorer.CollapseAll" Scope="Global">Ctrl+Shift+Alt+E</Shortcut>
           <Shortcut Command="SolutionExplorer.SyncWithActiveDocument" Scope="Global">Ctrl+Shift+Alt+R</Shortcut>
+          <Shortcut Command="Edit.RemoveAndSort" Scope="Global">Shift+Alt+O</Shortcut>
         </UserShortcuts>
       </KeyboardShortcuts>
     </Category>
