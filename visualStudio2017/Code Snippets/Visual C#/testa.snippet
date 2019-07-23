@@ -2,25 +2,28 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Assert That ... Is Equal To ...</Title>
+            <Title>NUnit Test with Arrange, Act, Assert</Title>
             <Author>Bryan Drenner</Author>
-            <Shortcut>atie</Shortcut>
-            <Description>Assert that... is equal to...</Description>
+            <Shortcut>testa</Shortcut>
+            <Description>Create an NUnit test with Arrange, Act, and Assert sections</Description>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[Assert.That($Actual$, Is.EqualTo($Expected$));$end$]]>
+                <![CDATA[[Test]
+public void $TestName$(){
+// Arrange
+$end$
+
+// Act
+
+// Assert
+}]]>
             </Code>
             <Declarations>
                 <Literal>
-                    <ID>Actual</ID>
-                    <ToolTip>The actual value being asserted over</ToolTip>
-                    <Default>actual</Default>
-                </Literal>
-                <Literal>
-                    <ID>Expected</ID>
-                    <ToolTip>The expected value</ToolTip>
-                    <Default>expected</Default>
+                    <ID>TestName</ID>
+                    <ToolTip>The name of the test</ToolTip>
+                    <Default>Test</Default>
                 </Literal>
             </Declarations>
             <Imports>

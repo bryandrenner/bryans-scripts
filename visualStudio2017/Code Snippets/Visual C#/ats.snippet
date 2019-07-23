@@ -2,28 +2,25 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>NUnit Test with Arrange, Act, Assert</Title>
+            <Title>Assert That ... Is Same As ...</Title>
             <Author>Bryan Drenner</Author>
-            <Shortcut>testaaa</Shortcut>
-            <Description>Create an NUnit test with Arrange, Act, and Assert sections</Description>
+            <Shortcut>ats</Shortcut>
+            <Description>Assert that... is same as...</Description>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[[Test]
-public void $TestName$(){
-// Arrange
-$end$
-
-// Act
-
-// Assert
-}]]>
+                <![CDATA[Assert.That($Actual$, Is.SameAs($Expected$));$end$]]>
             </Code>
             <Declarations>
                 <Literal>
-                    <ID>TestName</ID>
-                    <ToolTip>The name of the test</ToolTip>
-                    <Default>Test</Default>
+                    <ID>Actual</ID>
+                    <ToolTip>The actual object being asserted over</ToolTip>
+                    <Default>actual</Default>
+                </Literal>
+                <Literal>
+                    <ID>Expected</ID>
+                    <ToolTip>The expected object</ToolTip>
+                    <Default>expected</Default>
                 </Literal>
             </Declarations>
             <Imports>

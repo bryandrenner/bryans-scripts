@@ -2,24 +2,24 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Assert That ... Is Same As ...</Title>
+            <Title>Assert That ... Is Equal To ...</Title>
             <Author>Bryan Drenner</Author>
-            <Shortcut>atis</Shortcut>
-            <Description>Assert that... is same as...</Description>
+            <Shortcut>ate</Shortcut>
+            <Description>Assert that... is equal to...</Description>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[Assert.That($Actual$, Is.SameAs($Expected$));$end$]]>
+                <![CDATA[Assert.That($Actual$, Is.EqualTo($Expected$));$end$]]>
             </Code>
             <Declarations>
                 <Literal>
                     <ID>Actual</ID>
-                    <ToolTip>The actual object being asserted over</ToolTip>
+                    <ToolTip>The actual value being asserted over</ToolTip>
                     <Default>actual</Default>
                 </Literal>
                 <Literal>
                     <ID>Expected</ID>
-                    <ToolTip>The expected object</ToolTip>
+                    <ToolTip>The expected value</ToolTip>
                     <Default>expected</Default>
                 </Literal>
             </Declarations>
