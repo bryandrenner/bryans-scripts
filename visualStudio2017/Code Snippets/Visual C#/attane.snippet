@@ -2,25 +2,24 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>Substitute For</Title>
+            <Title>Assert That ... Throws ArgumentNullException</Title>
             <Author>Bryan Drenner</Author>
-            <Shortcut>sf</Shortcut>
-            <Description>Create an NSubstitute substitute</Description>
+            <Shortcut>attane</Shortcut>
         </Header>
         <Snippet>
             <Code Language="CSharp">
-                <![CDATA[Substitute.For<$Type$>();]]>
+                <![CDATA[Assert.That(() => $Expression$, Throws.ArgumentNullException);$end$]]>
             </Code>
             <Declarations>
                 <Literal>
-                    <ID>Type</ID>
-                    <ToolTip>The type of the substitute</ToolTip>
-                    <Default>object</Default>
+                    <ID>Expression</ID>
+                    <ToolTip>The expression expected to throw</ToolTip>
+                    <Default>action</Default>
                 </Literal>
             </Declarations>
             <Imports>
                 <Import>
-                    <Namespace>NSubstitute</Namespace>
+                    <Namespace>NUnit.Framework</Namespace>
                 </Import>
             </Imports>
         </Snippet>
