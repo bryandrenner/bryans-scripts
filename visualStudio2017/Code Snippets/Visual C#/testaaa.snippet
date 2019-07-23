@@ -2,17 +2,21 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>NUnit Test</Title>
+            <Title>NUnit Test with Arrange, Act, Assert</Title>
             <Author>Bryan Drenner</Author>
-            <Shortcut>test</Shortcut>
-            <Description>Create an NUnit test</Description>
+            <Shortcut>testaaa</Shortcut>
+            <Description>Create an NUnit test with Arrange, Act, and Assert sections</Description>
         </Header>
         <Snippet>
             <Code Language="CSharp">
                 <![CDATA[[Test]
-public void $TestName$()
-{
-    $end$
+public void $TestName$(){
+// Arrange
+$end$
+
+// Act
+
+// Assert
 }]]>
             </Code>
             <Declarations>
