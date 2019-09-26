@@ -4,19 +4,18 @@
         80,
         120
     ],
+    "editor.tabSize": 2,
     "explorer.openEditors.visible": 0,
     "files.hotExit":"off",
     "git.autofetch": true,
     "window.menuBarVisibility": "hidden",
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
     "[plaintext]": {
-        "editor.quickSuggestions": false
+        "editor.quickSuggestions": false,
     },
     "workbench.tree.indent": 20,
+    "window.zoomLevel": 1,
     "todo-tree.general.tags": [
         "WBD"
     ],
