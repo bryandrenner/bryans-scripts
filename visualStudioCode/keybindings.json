@@ -5,7 +5,7 @@
         "command": "workbench.action.tasks.test"
     },
     {
-        "key": "ctrl+shift+alt+.",
+        "key": "ctrl+shift+alt+f",
         "command": "eslint.executeAutofix"
     },
     {

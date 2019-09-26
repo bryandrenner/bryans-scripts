@@ -1,0 +1,25 @@
+[fetch]
+	prune = true
+[alias]
+  b = branch
+	ba = branch -a
+	s = status
+	ss = status -s
+	l = log --oneline
+	l1 = log --oneline -1
+	l2 = log --oneline -2
+	l3 = log --oneline -3
+	l4 = log --oneline -4
+	l5 = log --oneline -5
+	l6 = log --oneline -6
+	l7 = log --oneline -7
+	l8 = log --oneline -8
+	l9 = log --oneline -9
+	l10 = log --oneline -10
+	d = diff
+	ds = diff --staged
+	ch = checkout
+	chb = checkout -b
+	co = commit
+	cm = commit -m
+	aa = add -A
