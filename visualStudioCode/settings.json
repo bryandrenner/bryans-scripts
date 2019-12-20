@@ -7,7 +7,6 @@
     "editor.tabSize": 2,
     "explorer.openEditors.visible": 0,
     "files.exclude": {
-        "**/.*": true,
         "**/package-lock.json": true,
         "**/Podfile.lock": true,
         "**/yarn.lock": true,
