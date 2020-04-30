@@ -6,6 +6,7 @@
     ],
     "editor.tabSize": 2,
     "explorer.openEditors.visible": 0,
+    "files.eol": "\n",
     "files.exclude": {
         "**/package-lock.json": true,
         "**/Podfile.lock": true,
@@ -15,15 +16,15 @@
     "files.hotExit":"off",
     "git.autofetch": true,
     "window.menuBarVisibility": "hidden",
+    "window.zoomLevel": 1,
     "workbench.activityBar.visible": false,
     "workbench.startupEditor": "none",
-    "[plaintext]": {
-        "editor.quickSuggestions": false,
-    },
     "workbench.tree.indent": 20,
-    "window.zoomLevel": 1,
     "todo-tree.general.tags": [
         "WBD"
     ],
-    "files.eol": "\n"
+    "todo-tree.tree.showScanModeButton": false,
+    "[plaintext]": {
+        "editor.quickSuggestions": false,
+    }
 }
