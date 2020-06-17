@@ -4,7 +4,6 @@
         80,
         120
     ],
-    "editor.tabSize": 2,
     "explorer.openEditors.visible": 0,
     "files.eol": "\n",
     "files.exclude": {
@@ -24,6 +23,9 @@
         "WBD"
     ],
     "todo-tree.tree.showScanModeButton": false,
+    "[markdown]": {
+        "editor.tabSize": 4,
+    },
     "[plaintext]": {
         "editor.quickSuggestions": false,
     }
